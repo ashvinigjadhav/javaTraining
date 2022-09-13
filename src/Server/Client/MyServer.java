@@ -1,4 +1,4 @@
-package Examples.Example19;
+package Server.Client;
 
 import java.io.*;  
 import java.net.*;  

@@ -1,4 +1,4 @@
-package Examples.Example20;
+package DataTransferSenderReceiver;
 
 //DataReceiver.java  
 import java.net.*;  
