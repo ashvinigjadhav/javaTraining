@@ -1,0 +1,26 @@
+/*Method References in Java with examples
+//Functional Interfaces in Java and Lambda Function are prerequisites required in order to grasp grip over method references in Java.
+ As we all know that a method is a collection of statements that perform some specific task and
+  return the result to the caller.
+   A method can perform some specific task without returning anything. 
+   Methods allow us to reuse the code without retyping the code. 
+   In this article, we will see how to use methods as value. 
+
+//In Java 8 we can use the method as if they were objects or primitive values, 
+ * and we can treat them as a variable. The example shows the function as a variable in java:
+
+// This square function is a variable getSquare. 
+Function<Integer, Integer> getSquare = i -> i * i;
+A. To refer to a method in an object ---Object :: methodName 
+B. To print all elements in a list
+Following is an illustration of a lambda expression that just calls a single method in its entire execution: 
+list.forEach(s -> System.out.println(s));  
+
+C. Shorthand to print all elements in a list 
+
+To make the code clear and compact, In the above example, one can turn lambda expression 
+into a method reference:
+
+list.forEach(System.out::println);  
+
+*/
